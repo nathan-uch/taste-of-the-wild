@@ -1,6 +1,6 @@
 @font-face {
-	font-family: 'BotW';
-	src: url('../../assets/fonts/HyliaSerifBeta-Regular.otf');
+	font-family: 'Taste the Wild';
+	src: url('../../src/assets/fonts/HyliaSerifBeta-Regular.otf');
 }
 
 body {
@@ -9,7 +9,7 @@ body {
 }
 
 .background-img {
-	background-image: url('../../assets/images/background.jpg');
+	background-image: url('../assets/images/background.jpg');
 	background-size: cover;
 	background-position: center center;
 	width: 100%;
@@ -18,7 +18,7 @@ body {
 }
 
 .logo-text {
-	font-family: 'BotW', sans-serif;
+	font-family: 'Taste the Wild', sans-serif;
 	font-size: 3.5rem;
 }
 
@@ -60,9 +60,12 @@ body {
 	text-decoration: none;
 }
 
+/* HOME PAGE */
+
 .home-page {
 	background-color: rgba(0,0,0, 0.6);
 	backdrop-filter: blur(3px);
+	padding: 2rem 0;
 }
 
 .description {
