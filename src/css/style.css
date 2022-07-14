@@ -1,0 +1,73 @@
+@font-face {
+	font-family: 'BotW';
+	src: url('../../assets/fonts/HyliaSerifBeta-Regular.otf');
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+}
+
+.background-img {
+	background-image: url('../../assets/images/background.jpg');
+	background-size: cover;
+	background-position: center center;
+	width: 100%;
+	height: 100vh;
+	text-align: center;
+}
+
+.logo-text {
+	font-family: 'BotW', sans-serif;
+	font-size: 3.5rem;
+}
+
+/* NAVBAR */
+.navbar-container {
+	color: white;
+	justify-content: center;
+	background-color: rgba(0,0,0, 0.7);
+	backdrop-filter: blur(3px);
+	min-height: 60px;
+	box-shadow: inset 0 -1px 3px rgb(160, 160, 160);
+}
+
+.navbar {
+	padding: 5px 0;
+	display: flex;
+	justify-content: space-around;
+}
+
+.page-link {
+	color: white;
+	font-size: 1.5rem;	
+	align-items: center;
+	text-decoration: none;
+} 
+
+.slate-icon,
+.meat-icon,
+.fairy-icon {
+	position: relative;
+	top: 7px;
+	width: 35px;
+	height: auto;
+	margin: 0 0.7rem;
+}
+
+.navbar a:visited,
+.navbar a:focus {
+	text-decoration: none;
+}
+
+.home-page {
+	background-color: rgba(0,0,0, 0.6);
+	backdrop-filter: blur(3px);
+}
+
+.description {
+	color: white;
+	font-size: 1.3rem;
+	font-weight: 500;
+	margin: 0 7rem;
+}
