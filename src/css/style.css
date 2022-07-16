@@ -1,6 +1,6 @@
 @font-face {
-	font-family: 'Taste the Wild';
-	src: url('../../src/assets/fonts/HyliaSerifBeta-Regular.otf');
+font-family: 'Taste the Wild';
+src: url('../../src/assets/fonts/HyliaSerifBeta-Regular.otf');
 }
 
 body {
@@ -8,12 +8,15 @@ body {
 	font-weight: 600;
 }
 
-.background-img {
+#content {
 	background-image: url('../assets/images/background.jpg');
 	background-size: cover;
 	background-position: center center;
 	width: 100%;
-	height: 100vh;
+	height: auto;
+}
+
+.background-img {
 	text-align: center;
 }
 
@@ -33,16 +36,19 @@ body {
 }
 
 .navbar {
-	padding: 5px 0;
+	min-height: 60px;
 	display: flex;
 	justify-content: space-around;
+	align-items: center;
+	text-align: center;
 }
 
 .page-link {
+	height: 50px;
 	color: white;
 	font-size: 1.5rem;	
-	align-items: center;
 	text-decoration: none;
+	padding: 0 0.8rem 0.5rem 0;
 } 
 
 .slate-icon,
@@ -50,7 +56,7 @@ body {
 .fairy-icon {
 	position: relative;
 	top: 7px;
-	width: 35px;
+	width: 30px;
 	height: auto;
 	margin: 0 0.7rem;
 }
@@ -60,17 +66,85 @@ body {
 	text-decoration: none;
 }
 
-/* HOME PAGE */
+.selected {
+	border: 2px solid rgb(255, 255, 255);
+	position: relative;
+	animation: pulse 1s infinite;
+}
 
+@keyframes top {
+	0% {
+		border-top-color: rgba(255, 255, 255, 0.8);
+	}
+
+	50% {
+		border-top-color: rgba(255, 255, 255, 0.2);
+	}
+
+	100% {
+		border-top-color: rgba(255, 255, 255, 0.8);
+	}
+}
+
+@keyframes pulse {
+	0% {
+		border-color: rgba(255, 255, 255, 0.8);
+	}
+
+	50% {
+		border-color: rgba(255, 255, 255, 0.2);
+	}
+
+	100% {
+		border-color: rgba(255, 255, 255, 0.8);
+	}
+}
+
+/* HOME PAGE */
 .home-page {
 	background-color: rgba(0,0,0, 0.6);
 	backdrop-filter: blur(3px);
 	padding: 2rem 0;
+	color:white;
+}
+
+.desc-container {
+	min-width: 310px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 
 .description {
-	color: white;
 	font-size: 1.3rem;
 	font-weight: 500;
-	margin: 0 7rem;
+	padding: 0 2rem;
+}
+
+.link-img {
+	width: 100%;
+	height: auto;
+	padding: 2rem 1.5rem;
+}
+
+.rating-header {
+	text-align: center;
+	text-decoration: underline;
+}
+
+.stars-rating {
+	width: 70px;
+	height: auto;
+	margin: 0 1rem;
+}
+
+.quote {
+	font-style: italic;
+	font-size: 1.1rem;
+	padding: 0 2rem;
+}
+
+.quote-author {
+	display: block;
+	font-style: normal;
 }

@@ -15,3 +15,7 @@
 .col {
 	flex-basis: 100%;
 }
+
+.col-half {
+	flex-basis: 50%;
+}
