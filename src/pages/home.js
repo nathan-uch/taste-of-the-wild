@@ -1,7 +1,7 @@
 import createElement from "./render";
 
 function renderHome () {
-    const home = createElement('div', {class: 'row home-page'}, [
+    const home = createElement('div', {class: 'row home-page page'}, [
         createElement('div', {class: 'col-half'}, [
             createElement('img', {src: '../src/assets/images/link.png', alt:'main character from Zelda video games, Link', class:'link-img'}, [])
         ]),
@@ -12,7 +12,8 @@ function renderHome () {
                 Chef Link has previous experience as princess Zelda's personal cook! Step in to enjoy all the unique flavors of the wild.`
             ]),
             createElement('div', {class: 'stars-container'}, [
-                createElement('h2', {class: 'rating-header'}, ['Hyrule Stars']),
+                createElement('h2', {class: 'rating-header'}, ['Hyrule Stars', 
+                    createElement('span', {class: 'copyright'}, ['©'])]),
                 createElement('img', {src: '../src/assets/images/star.webp', alt: 'star rating 5 out of 5', class: 'stars-rating'}, []),
                 createElement('img', {src: '../src/assets/images/star.webp', alt: 'star rating 5 out of 5', class: 'stars-rating'}, []),
                 createElement('img', {src: '../src/assets/images/star.webp', alt: 'star rating 5 out of 5', class: 'stars-rating'}, [])
