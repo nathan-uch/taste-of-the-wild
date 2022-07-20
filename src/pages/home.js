@@ -2,7 +2,7 @@ import createElement from "./render";
 
 function renderHome () {
     const home = createElement('div', {class: 'row home-page page'}, [
-        createElement('div', {class: 'col-half'}, [
+        createElement('div', {class: 'col-half hero-img'}, [
             createElement('img', {src: '../src/assets/images/link.png', alt:'main character from Zelda video games, Link', class:'link-img'}, [])
         ]),
         createElement('div', {class: 'col-half desc-container'}, [
