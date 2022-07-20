@@ -282,7 +282,8 @@ body {
 	margin: 1rem 0.3rem 0 0;
 }
 
-.locations-title {
+.locations-title,
+.credits-header {
 	font-family: 'Taste the Wild', sans-serif;
 	font-size: 1.5rem;
 	margin: 1rem 0;
@@ -297,6 +298,15 @@ body {
 
 .hyrule-castle {
 	text-decoration: line-through;
+}
+
+.credits {
+	color: white;
+}
+
+.credits:visited {
+	color: white;
+	text-decoration: underline;
 }
 
 @media screen and (min-width: 390px) and 

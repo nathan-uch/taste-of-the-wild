@@ -32,6 +32,19 @@ function renderContact() {
             createElement('ul', {class:'coming-soon'}, [
                 createElement('li', {}, ['Korok Forest']),
                 createElement('li', {}, ['Zora\'s Domain']),
+            ]),
+            createElement('h3', {class:'credits-header'}, ['Credits']),
+            createElement('div', {class: 'credits-details'}, [
+                createElement('p', {class: 'credits'}, ['Font: ']),
+                createElement('a', {class: 'credits', href:'https://artsyomni.com/hyliaserif/download'}, ['Hylia Serif by Omni Jacala'])
+            ]),
+            createElement('div', {class: 'credits-details'}, [
+                createElement('p', {class: 'credits'}, ['Background Image: ']),
+                createElement('a', {class: 'credits', href: 'https://wall.alphacoders.com/big.php?i=716166'}, ['AlphaCoders'])
+            ]),
+            createElement('div', {class: 'credits-details'}, [
+                createElement('p', {class: 'credits'}, ['Item Images: ']),
+                createElement('a', {class: 'credits', href:'https://zelda.fandom.com/wiki/Category:Breath_of_the_Wild_Sprites?fileuntil=BotW+Chillfin+Trout+Icon.png#mw-category-media'}, ['Zelda Fandom'])
             ])
         ])
     ]);
