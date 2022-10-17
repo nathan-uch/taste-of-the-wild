@@ -27,7 +27,7 @@ The aim of the project was to make a functional multi-page restaurant website us
 ## Development:
 1. Clone git repository
 ```shell
-git@github.com:nathan-uch/taste-of-the-wild.git
+git clone git@github.com:nathan-uch/taste-of-the-wild.git
 cd taste-of-the-wild
 ```
 2. Install dependencies with npm
