@@ -22,6 +22,7 @@ The aim of the project was to make a functional multi-page restaurant website us
 * Contact
 
 ## Preview:
+![Kapture 2022-10-17 at 12 28 13](https://user-images.githubusercontent.com/68994507/196265725-9fce5040-3e3b-4abe-97a7-d154e6371119.gif)
 
 ## Development:
 1. Clone git repository
