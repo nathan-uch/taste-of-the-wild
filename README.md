@@ -1,4 +1,4 @@
-# Taste of the Wild (Restaurant page)
+# Taste of the Wild
 
 An HTML, CSS, JavaScript restaurant page.
 
